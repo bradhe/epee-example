@@ -1,0 +1,5 @@
+package main;
+
+message MyCounter {
+  required int64 Count = 1;
+}

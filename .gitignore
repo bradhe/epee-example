@@ -1,0 +1,6 @@
+# Ignore Vim
+*.sw[onp]
+
+# Ignore built stuff
+/epee-example
+*.pb.go
