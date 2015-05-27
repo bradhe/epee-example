@@ -55,7 +55,8 @@ func (sp *MyStreamProcessor) Flush() error {
 }
 
 func init() {
-	var err error
+	// Parse CLI flags.
+	flag.Parse()
 
 	zk, err := epee.NewZookeeperClient([]string{*ZookeeperHost})
 
